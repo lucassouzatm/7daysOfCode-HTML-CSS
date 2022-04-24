@@ -14,7 +14,7 @@
     padding: 1rem 0;
 }
 
-.menu__navecacao___link {
+.menu__navegacao___link {
     color: #667085;
     margin-right: 2rem;
     text-decoration: none;
@@ -63,4 +63,34 @@ button {
     font-size: 20px;
     line-height: 30px;
     text-align: center;
+}
+
+.metricas__container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 112px 96px 112px;
+}
+
+.metricas {
+    text-align: justify;    
+}
+
+.metricas__titulo {
+    font-size: 3.75rem;
+    color: #8E2424;
+    padding-bottom: 0.75rem;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+}
+
+.metricas__subtitulo {
+    font-size: 1.12rem;
+    color: #101828;
+    padding-bottom: 0.75rem;
+}
+
+.metricas__texto {
+    font-size: 1rem;
+    color: #667085;
+    padding-bottom: 0.75rem
 }
