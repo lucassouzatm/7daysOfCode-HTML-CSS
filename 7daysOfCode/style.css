@@ -192,6 +192,42 @@ button {
     font-weight: 400;
   }
 
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F9FAFB;
+    padding: 6rem 0;
+    gap: 1.5rem;
+  }
+  
+  footer h2 {
+    color: #667085;
+  }
+  
+  footer span {
+    color: #667085;
+  }
+  
+  footer form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer input {
+    outline: none;
+    border: 1px solid #D0D5DD;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    width: 280px;
+    margin-right: 1rem;
+  }
+
+  footer button {
+    background-color: #8E2424;
+    color: #FFF
+  }
   
 
 
