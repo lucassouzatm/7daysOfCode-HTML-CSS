@@ -105,9 +105,9 @@ button {
 
 .vagas__container span {
     color: var(--main-color);
-  background: rgba(142, 36, 36, 0.05);
-  padding: 0.5rem 1rem;
-  border-radius: 1rem;
+    background: rgba(142, 36, 36, 0.05);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
 }
 
 .vagas__container p {
@@ -118,3 +118,40 @@ button {
     margin-top: 2rem;
     width: 80%;
 }
+
+.vagas-abertas {
+    padding-top: 4rem;
+  }
+  
+  .vagas-abertas span.area-principal {
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .vaga {
+    border: 1px solid #EAECF0;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  
+  .vaga span.titulo-vaga {
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  
+  .vaga .informacoes {
+    margin-top: 1rem;
+    font-size: 90%;
+    color: var(--text-color);
+    display: flex;
+    gap: 2rem;
+  }
+
+
