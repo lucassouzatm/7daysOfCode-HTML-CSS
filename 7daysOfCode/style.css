@@ -94,3 +94,27 @@ button {
     color: #667085;
     padding-bottom: 0.75rem
 }
+
+.vagas__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem 0;
+    gap: 1rem;
+}
+
+.vagas__container span {
+    color: var(--main-color);
+  background: rgba(142, 36, 36, 0.05);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.vagas__container p {
+    color: #667085
+}
+
+.vagas__container img {
+    margin-top: 2rem;
+    width: 80%;
+}
