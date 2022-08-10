@@ -1,1 +1,1 @@
-﻿# -challenges-HTML-CSS
+﻿# -7daysOfCode-JS
